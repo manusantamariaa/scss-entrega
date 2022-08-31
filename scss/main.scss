@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+
+@import './secciones/header';
+@import './secciones/main-index';
+@import './secciones/footer';
+@import './secciones/contenido.scss';
+@import './secciones/nosotros.scss';
+@import './secciones/contacto.scss';
+@import './secciones/faq.scss';
+@import './secciones/media';

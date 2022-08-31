@@ -1,0 +1,42 @@
+.navbar{
+    padding: 0;
+    position: fixed;
+    filter: opacity(75%);
+    z-index: 100;
+    width: 100vw;
+    top: 0;
+    .nav-link.active{
+        color: white;
+        font-weight: 500;
+        &:hover{
+            color: #e2e2e2;
+            font-weight: 650;
+        }
+    }
+    .show>.nav-link{
+        color: white;
+        font-weight: 500;
+        &:hover{
+            color: #e2e2e2;
+            font-weight: 650;
+        }
+    }
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+    padding-right: 2vw;
+}
+
+.nav-item{
+    margin: 0 2vw;
+}
+
+.container-fluid{
+    background-color: #d45c5b;
+}
+
+.navbar-brand img{
+    /* width: 5vw; */
+    height: 12vh;
+}

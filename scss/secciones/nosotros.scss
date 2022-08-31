@@ -1,0 +1,29 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 7rem;
+    width: 80vw;
+    text-align: center;
+    h1{
+        font-size: calc(1.375rem + 4.5vw);
+        margin-bottom: 3.5rem;
+    }
+}
+
+.carousel-nos{
+    position: fixed;
+    z-index: -50;
+    width: 100vw;
+    top: 0;
+}
+
+.card-img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.c2{
+    object-position: 0 50%;
+}
